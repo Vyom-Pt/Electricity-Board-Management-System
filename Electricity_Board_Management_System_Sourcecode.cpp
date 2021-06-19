@@ -784,7 +784,7 @@ void EB::pay_bill()                           // Function to pay bill and update
         cout << "\n\t\t\t\t\t\t\t\tEnter User ID : ";
         getline(cin, temp);
 
-        while (tempd != nullptr)              // Traversal upto of the linked list
+        while (tempd != nullptr)              // Traversal upto end of the linked list
         {
             if (temp == tempd->user_id)       // If entered id is matched within the linked list
             {
